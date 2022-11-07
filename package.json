@@ -38,8 +38,7 @@
     "vite": "3.0.9",
     "vitest": "^0.6.3",
     "vue-tsc": "^0.32.1",
-    "onu-ui": "latest",
-    "element-plus":"latest"
+    "onu-ui": "latest"
   },
   "eslintConfig": {
     "extends": "@chris-zhu",

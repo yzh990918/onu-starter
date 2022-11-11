@@ -10,7 +10,20 @@
       <em text-sm op75>Opinionated OnuUI Starter Template</em>
     </p>
     <div mt-4>
-      <o-button>Hello OnuUI</o-button>
+      <o-button @click="hanleDebug">
+        Hello OnuUI
+      </o-button>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { OMessage } from 'onu-ui'
+
+function hanleDebug() {
+  OMessage({
+    content: 'Hello OnuUI!',
+    closable: true,
+  })
+}
+</script>

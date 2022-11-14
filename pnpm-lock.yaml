@@ -44,7 +44,7 @@ devDependencies:
   husky: 7.0.1
   jsdom: 19.0.0
   lint-staged: 12.5.0
-  onu-ui: 1.0.10-beta.8_vue@3.2.37
+  onu-ui: 1.0.10-beta.10_vue@3.2.37
   pnpm: 6.35.0
   typescript: 4.8.4
   unocss: 0.27.6
@@ -424,23 +424,23 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@onu-ui/components/1.0.10-beta.8_vue@3.2.37:
-    resolution: {integrity: sha512-owyJ9MgroE0j1Nyi4CyV5dFy+p/0dTVMWg3SSq8u2WtmUepEeuQ7X31Tmf7LIoXzDnbZFF6pvEjD7CeNASZFkg==}
+  /@onu-ui/components/1.0.10-beta.10_vue@3.2.37:
+    resolution: {integrity: sha512-aJ6iMMEbp5GsfkqZe7D/urkutKcvoVoEBPrh4KgYGPTONX87eBpJVHC63X/rQrxddqyDOlHicMK3PMRCaJmXnw==}
     dependencies:
-      '@onu-ui/preset': 1.0.10-beta.8
-      '@onu-ui/utils': 1.0.10-beta.8_vue@3.2.37
+      '@onu-ui/preset': 1.0.10-beta.10
+      '@onu-ui/utils': 1.0.10-beta.10_vue@3.2.37
       '@vueuse/core': 9.5.0_vue@3.2.37
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: true
 
-  /@onu-ui/preset/1.0.10-beta.8:
-    resolution: {integrity: sha512-Z7xlpQqDMT9WeVsXc90Rn2GL++k87DZgEIXHoGAQ5NkvKZMrlT47PtEOXpJaz99iIcfKWfGXl9eqaKusN2B1Vg==}
+  /@onu-ui/preset/1.0.10-beta.10:
+    resolution: {integrity: sha512-ffrRMctH+cKwnixMUQeDyHPV4RuvdjrNGsUK9xCZJrIFuz+sl2MFf8jDk6jvFz6YLdEkPYzD8rYHc+xnTqRGQQ==}
     dev: true
 
-  /@onu-ui/utils/1.0.10-beta.8_vue@3.2.37:
-    resolution: {integrity: sha512-BzdAe1BdnrSpUjxHvnfaJK785sroH9CiyvaZUgckvEGyxiMWRdEDEhvMS94Le9xbyzOQiFlJ4lr3/td6FBaJ0g==}
+  /@onu-ui/utils/1.0.10-beta.10_vue@3.2.37:
+    resolution: {integrity: sha512-SIOlvBj68zmzk5ve0ezhpKSGTCaI0Uwj82i1Uag4b+ZNdLNLMUMmA4eLzsMsMWQ9UTv4bAeLZl7xbFOlJXTtzw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -3694,10 +3694,10 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /onu-ui/1.0.10-beta.8_vue@3.2.37:
-    resolution: {integrity: sha512-MwL+5f7NCPqAbH3iV7YVIQ/nP7zyJCemlNSaugx9/Zl50LHSGmpkTBaI9KULBm/UGaYIKkqpaE1o1abwGBQVug==}
+  /onu-ui/1.0.10-beta.10_vue@3.2.37:
+    resolution: {integrity: sha512-X1C88Hysho3H9mjPSdQ3QTueNfMvlA8PmJGXgrH/FEefuL2hDFnxyU5RA9oK5ucNtc/r+LxZpzv8e2qY1lBsjQ==}
     dependencies:
-      '@onu-ui/components': 1.0.10-beta.8_vue@3.2.37
+      '@onu-ui/components': 1.0.10-beta.10_vue@3.2.37
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue

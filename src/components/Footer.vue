@@ -9,11 +9,20 @@ import { isDark, toggleDark } from '@/composables'
       <div v-else i-carbon-sun />
     </button>
 
+      <a
+        class="icon-btn"
+        i-carbon-logo-github
+        rel="noreferrer"
+        href="https://github.com/onu-ui/onu-ui"
+        target="_blank"
+        title="GitHub"
+      />
+
     <a
       class="icon-btn"
-      i-carbon-logo-github
+      i-carbon-document
       rel="noreferrer"
-      href="https://github.com/onu-ui/onu-ui"
+      href="https://onu.zyob.top"
       target="_blank"
       title="GitHub"
     />

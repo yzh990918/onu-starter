@@ -10,7 +10,7 @@
       <em text-sm op75>Opinionated OnuUI Starter Template</em>
     </p>
     <div mt-4>
-      <o-button @click="hanleDebug">
+      <o-button type="primary" @click="hanleDebug">
         Hello OnuUI
       </o-button>
     </div>
@@ -22,7 +22,7 @@ import { OMessage } from 'onu-ui'
 
 function hanleDebug() {
   OMessage({
-    content: 'Hello OnuUI!',
+    content: 'Hello OnuUI',
     closable: true,
   })
 }

@@ -5,7 +5,7 @@ import {
   presetUno,
   presetWebFonts,
 } from 'unocss'
-import {presetOnu} from 'onu-ui'
+import { presetOnu } from 'onu-ui'
 
 export default defineConfig({
   shortcuts: [

@@ -1,11 +1,12 @@
 /// <reference types="vitest" />
 
-import path from "path";
-import { defineConfig } from "vite";
-import Vue from "@vitejs/plugin-vue";
-import Components from "unplugin-vue-components/vite";
-import AutoImport from "unplugin-auto-import/vite";
-import Unocss from "unocss/vite";
+import path from 'path'
+import { defineConfig } from 'vite'
+import Vue from '@vitejs/plugin-vue'
+import Components from 'unplugin-vue-components/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import Unocss from 'unocss/vite'
+import VueDevtools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   base: "./",
@@ -18,6 +19,7 @@ export default defineConfig({
     },
   },
   plugins: [
+    VueDevtools(),
     Vue({
       reactivityTransform: true,
     }),

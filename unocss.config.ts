@@ -5,6 +5,7 @@ import {
   presetUno,
   presetWebFonts,
 } from 'unocss'
+import {presetOnu} from 'onu-ui'
 
 export default defineConfig({
   shortcuts: [
@@ -13,6 +14,7 @@ export default defineConfig({
   ],
   presets: [
     presetUno(),
+    presetOnu(),
     presetAttributify(),
     presetIcons({
       scale: 1.2,
